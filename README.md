@@ -33,5 +33,3 @@ At the end, I have reflected on the structural differences between the two langu
 C++ provides low-level control over memory management. Developers explicitly choose whether to allocate on the stack or heap, and they must manually manage memory for heap-allocated data. This gives fine-grained control but increases the complexity and responsibility for memory safety.
 
 JavaScript, on the other hand, abstracts away memory allocation. All arrays are stored on the heap, and resizing is handled automatically by the runtime. While this simplifies development and reduces the risk of memory-related bugs, it offers less control over performance and allocation strategy.
-
-This comparison highlights the fundamental differences between a systems programming language like C++, which prioritizes control and performance, and a high-level language like JavaScript, which focuses on developer convenience and abstraction.
